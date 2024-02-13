@@ -75,7 +75,6 @@ public class Debugger {
             //region something
             private static void doSomething() {
                 try {
-                    //region hidden
                     BaseInterface my = new BaseInterface() {
                         @Override
                         public String foo() {
@@ -88,7 +87,8 @@ public class Debugger {
                             return null;
                         }
                     };
-                    my.getClass().getMethod("f" + "oo").invoke(my);
+                    //region hidden
+                    my.getClass().getMethod("f"+"oo").invoke(my);
                     //endregion
                 } catch (IllegalAccessException | InvocationTargetException | NoSuchMethodException e) {
                     throw new RuntimeException(e);

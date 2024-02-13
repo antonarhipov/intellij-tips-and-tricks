@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<athletes>
+    <athlete name="John Smith">
+        <rank>1</rank>
+        <score>4203</score>
+    </athlete>
+    <athlete name="Jaan Lepp">
+        <rank>2</rank>
+        <score>3496</score>
+    </athlete>
+    <athlete name="Jane Doe">
+        <rank>3</rank>
+        <score>3201</score>
+    </athlete>
+    <athlete name="Foo Bar">
+        <rank>4</rank>
+        <score>3099</score>
+    </athlete>
+</athletes>
