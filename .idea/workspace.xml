@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="331f4355-3969-4d06-a18a-492d1c7d9f19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/anton.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ConcurrencyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/ComplexWorkflow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/ComplexWorkflow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Debugger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Debugger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,12 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="intellij-tips-and-tricks" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -84,7 +88,6 @@
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
@@ -95,9 +98,11 @@
     &quot;Gradle.intellij-tips-and-tricks [:Cache.main()].executor&quot;: &quot;Debug&quot;,
     &quot;Gradle.intellij-tips-and-tricks [:ClassLevelWatch.main()].executor&quot;: &quot;Debug&quot;,
     &quot;Gradle.intellij-tips-and-tricks [:ComplexWorkflow.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.intellij-tips-and-tricks [:Filters.main()].executor&quot;: &quot;Debug&quot;,
     &quot;Gradle.intellij-tips-and-tricks [:Lambdas.main()].executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.intellij-tips-and-tricks [:Main.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.intellij-tips-and-tricks [:Main.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.intellij-tips-and-tricks [:MethodBreakpoints.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.intellij-tips-and-tricks [:Renderers.main()].executor&quot;: &quot;Debug&quot;,
     &quot;Gradle.intellij-tips-and-tricks [:Switcher.main()].executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ConcurrencyTest.test [*].executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ConcurrencyTest.test.executor&quot;: &quot;Debug&quot;,
@@ -110,6 +115,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last.edited.regexp&quot;: &quot;\&quot;Tallinn, EE: 372\&quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/anton/IdeaProjects/intellij-tips-and-tricks&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -117,10 +123,10 @@
     &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.5114943&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -147,9 +153,35 @@
       <recent name="demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Switcher">
+  <component name="RunManager" selected="Application.Debugger$Filters">
     <configuration name="ComplexWorkflow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.ComplexWorkflow" />
+      <module name="intellij-tips-and-tricks.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Debugger$Breakpoints$Cache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Debugger$Breakpoints$Cache" />
+      <module name="intellij-tips-and-tricks.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Debugger$Filters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Debugger$Filters" />
       <module name="intellij-tips-and-tricks.main" />
       <extension name="coverage">
         <pattern>
@@ -174,21 +206,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Main" />
-      <module name="intellij-tips-and-tricks.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Switcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Switcher" />
+    <configuration name="Debugger$Renderers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Debugger$Renderers" />
       <module name="intellij-tips-and-tricks.main" />
       <extension name="coverage">
         <pattern>
@@ -211,18 +230,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Switcher" />
+      <item itemvalue="Application.Debugger$Filters" />
+      <item itemvalue="Application.Debugger$Renderers" />
+      <item itemvalue="Application.Debugger$Breakpoints$Cache" />
       <item itemvalue="Application.ComplexWorkflow" />
       <item itemvalue="Application.Debugger$MethodBreakpoints" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ConcurrencyTest.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Switcher" />
+        <item itemvalue="Application.Debugger$Filters" />
+        <item itemvalue="Application.Debugger$Renderers" />
+        <item itemvalue="Application.Debugger$Breakpoints$Cache" />
         <item itemvalue="Application.ComplexWorkflow" />
         <item itemvalue="Application.Debugger$MethodBreakpoints" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -240,44 +261,23 @@
     <MESSAGE value="demo" />
     <MESSAGE value="kotlin basics" />
     <MESSAGE value="data file" />
-    <option name="LAST_COMMIT_MESSAGE" value="data file" />
+    <MESSAGE value="sync" />
+    <option name="LAST_COMMIT_MESSAGE" value="sync" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/demo/Debugger.java</url>
-          <line>32</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/demo/Debugger.java</url>
-          <line>124</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <dependency master-id="0" />
           <url>file://$PROJECT_DIR$/src/main/java/demo/ComplexWorkflow.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="54" />
+          <line>39</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="NONE" type="java-line">
           <dependency id="0" />
           <url>file://$PROJECT_DIR$/src/main/java/demo/ComplexWorkflow.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/demo/Debugger.java</url>
-          <line>51</line>
-          <properties class="demo.Debugger.MethodBreakpoints.BaseInterface">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="50" />
+          <line>31</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

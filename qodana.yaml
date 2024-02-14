@@ -9,6 +9,7 @@ profile:
 #Enable inspections
 include:
   - name: EnhancedSwitchMigration
+  - name: CyclomaticComplexity
 #Disable inspections
 #exclude:
 #  - name: <SomeDisabledInspectionId>
